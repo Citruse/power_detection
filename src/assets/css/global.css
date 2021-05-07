@@ -1,0 +1,178 @@
+/* 全局样式表 */
+
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    color: white;
+    width: auto;
+    height: 100%;
+    z-index: 1;
+}
+
+.el-breadcrumb__inner a,
+.el-breadcrumb__inner.is-link {
+    font-weight: 700;
+    text-decoration: none;
+    transition: color .2s cubic-bezier(.645, .045, .355, 1);
+    color: #ffffff;
+}
+
+.el-breadcrumb__item:last-child .el-breadcrumb__inner,
+.el-breadcrumb__item:last-child .el-breadcrumb__inner a,
+.el-breadcrumb__item:last-child .el-breadcrumb__inner a:hover,
+.el-breadcrumb__item:last-child .el-breadcrumb__inner:hover {
+    font-weight: 400;
+    color: #ffffff;
+    cursor: text;
+}
+
+#weather-view-he {
+    z-index: 999;
+}
+
+.box_all {
+    /* 每个楼层页面的最外层div盒子 */
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box {
+    /* 楼层页面 内部盒子 */
+    margin: 0px, 0px, 20px, 0px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.dv-border-box-3 .border-box-content {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+
+/* 楼层平面图 */
+
+.body_1 {
+    margin: 20px;
+    margin-top: 5%;
+    margin-right: 0;
+    padding-top: 5%;
+    height: 75%;
+    width: 22%;
+    background-color: rgba(168, 162, 163, 0.205);
+    flex-direction: row;
+}
+
+.body_2 {
+    /* margin: 20px; */
+    margin-top: 5%;
+    margin-right: 0;
+    margin-left: 0;
+    height: 75%;
+    width: 40%;
+    /* background-color: rgba(168, 162, 163, 0.205); */
+    flex-direction: row;
+}
+
+.body_2_inner {
+    margin-top: 50%;
+    height: 25%;
+    /* width: 10%; */
+    background-color: rgba(168, 162, 163, 0.205);
+}
+
+.body_3 {
+    margin: 20px;
+    margin-top: 5%;
+    margin-left: 0;
+    padding-top: 5%;
+    height: 75%;
+    width: 22%;
+    background-color: rgba(168, 162, 163, 0.205);
+}
+
+.datas {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    height: 100%;
+    justify-content: space-evenly;
+    font-size: bold;
+}
+
+.box_data {
+    width: 50%;
+}
+
+.room_box {
+    margin: 0 auto;
+}
+
+.title_b {
+    margin: 0 auto;
+}
+
+.btn_row {
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.floor_btn {
+    margin: 10px;
+}
+
+h2 {
+    height: 48px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 60px;
+}
+
+.el-aside {
+    overflow: hidden;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: auto;
+}
+
+.el-card__body {
+    padding: 20px;
+    width: 100%;
+}
+
+.data_charts {
+    height: 30%;
+    /* border-color: red; */
+}
+
+.gauge_box {
+    height: 23%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.gauge {
+    height: 100%;
+    width: 50%;
+    /* background-color: rgba(168, 162, 163, 0.205); */
+}
+
+.el-card {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
